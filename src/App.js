@@ -71,7 +71,6 @@ const PrivateRoute = ({component: Component,...rest}) =>(
   )}/>
 )
 
-
 const AuthButton = withRouter( ({history}) =>(
   fakeAuth.isAuthenticade === true ? 
   <p>Welcome! <button onClick={()=> {
